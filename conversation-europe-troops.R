@@ -120,8 +120,7 @@ m1 <- ggplot() +
   labs(fill = "Troops",
        x = "",
        y = "",
-       title = "The Changing US Military Footprint in Europe: {closest_state}",
-       subtitle = glue::glue("Approximate Personnel: {map.df$trooptotal}"))
+       title = "The Changing US Military Footprint in Europe: {closest_state}")
 
 
 m1.anam <- m1 + 
